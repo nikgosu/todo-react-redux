@@ -17,9 +17,9 @@ function App() {
     <BrowserRouter>
       <NavBar/>
         <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/about' element={<About/>}/>
-          <Route path={`/popup/:${currentCard?.id}`} element={<PopUpCard/>}/>
+          <Route path='todo-react-redux/' element={<Home/>}/>
+          <Route path='todo-react-redux/about' element={<About/>}/>
+          <Route path={`todo-react-redux/popup/:${currentCard?.id}`} element={<PopUpCard/>}/>
           <Route path='*' element={<ErrorPage/>}/>
         </Routes>
     </BrowserRouter>
